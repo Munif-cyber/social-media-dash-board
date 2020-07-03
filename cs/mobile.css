@@ -179,13 +179,13 @@
         -ms-flex-align: center;
             align-items: center;
   }
-  main .section-1 .big .icon-up p {
+  main .section-1 .big .icon-up span {
     font-size: 0.5rem;
     margin: 10px 0px;
     margin-left: 4px;
     color: #1db489;
   }
-  main .section-1 .big.facebook p {
+  main .section-1 .big.facebook span {
     color: white;
   }
   main .section-1 .big.youtube p {
@@ -265,12 +265,12 @@
         -ms-flex-align: center;
             align-items: center;
   }
-  main .section-2 .small .inner .views .icon-up p {
+  main .section-2 .small .inner .views .icon-up span {
     font-size: 0.7rem;
     color: #1db489;
     margin-left: 10%;
   }
-  main .section-2 .small .inner .views .icon-up.red p {
+  main .section-2 .small .inner .views .icon-up.red span {
     color: #dc414c;
   }
   body.light {
@@ -320,7 +320,7 @@
   body.light main .section-1 .big .number span {
     color: #63687e;
   }
-  body.light main .section-1 .big.facebook p {
+  body.light main .section-1 .big.facebook .icon-up span {
     color: #1db489;
   }
   body.light main .section-2 .overview {

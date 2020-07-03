@@ -146,7 +146,7 @@
                 .icon-up{
                     display: flex;
                     align-items: center;
-                    p{
+                    span{
                     font-size: 0.5rem;
                     margin: 10px 0px;
                     margin-left: 4px;
@@ -154,7 +154,7 @@
                     } 
                 }
                 &.facebook{
-                    p{
+                    span{
                         color: white;   
                     }
                 }
@@ -224,12 +224,12 @@
                         .icon-up{
                             display: flex;
                             align-items: center;
-                            p{
+                            span{
                                 font-size: 0.7rem;
                                 color: hsl(163, 72%, 41%);
                                 margin-left: 10%;
                             }
-                            &.red p{
+                            &.red span{
                                 color: hsl(356, 69%, 56%);
                             }
                         }
@@ -295,7 +295,6 @@
                         }
                     }
                     .number{
-                       
                         color: black;
                         span{
                             
@@ -304,7 +303,7 @@
                     }
                    
                     &.facebook{
-                        p{
+                       .icon-up span{
                             color: hsl(163, 72%, 41%);   
                         }
                     }
