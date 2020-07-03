@@ -25,6 +25,7 @@
     }
     main{
         width: 90%;
+        // height: 100%;
         // background: lightgreen;
         margin: 0px auto 70px;
         display: grid;
@@ -186,6 +187,7 @@
         }
         .section-2{
             // background: salmon;
+            height: auto;
             display: grid;
             // width: auto;
             grid-template-columns: repeat(4,1fr);
@@ -217,9 +219,10 @@
                     // background: black;
                     display: flex;
                     flex-direction: column;
-                    justify-content: space-between;
+                    justify-content:center;
                     .text,.views{
                         display: flex;
+                        width: 100%;
                         justify-content: space-between;
                         align-items: center;
                         color: hsl(228, 34%, 66%);
@@ -233,6 +236,7 @@
                         font-weight: 500;
                     }
                     .views{
+                
                         span{
                             font-size: 1.2rem;
                             color: white;

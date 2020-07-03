@@ -212,6 +212,7 @@
     color: #dc414c;
   }
   main .section-2 {
+    height: auto;
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: (1fr)[4];
@@ -252,14 +253,15 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   main .section-2 .small .inner .text, main .section-2 .small .inner .views {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    width: 100%;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
